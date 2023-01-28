@@ -1,4 +1,274 @@
 <header class="header">
-	<div class="header__container">
+	<div class="header__top">
+		<div class="header__container">
+			<div class="header__menu menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Доставка и оплата</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Гарантия</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Аксессуары</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__language dropdown">
+				<div class="dropdown__toggle">
+					<div class="dropdown__title">Укр</div>
+					<div class="dropdown__icon">
+						<svg>
+							<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+						</svg>
+					</div>
+				</div>
+				<div class="dropdown__body">
+					<a href="#" class="dropdown__link">Укр</a>
+					<a href="#" class="dropdown__link">Англ</a>
+					<a href="#" class="dropdown__link">Рус</a>
+				</div>
+			</div>
+			<div class="header__regestration">
+				<a href="#" class="header-link-sing-in">Вход</a>
+				<a href="#" class="header-link-check-in">Регистрация</a>
+			</div>
+		</div>
+	</div>
+	<div class="header__middle">
+		<div class="header__container">
+			<button type="button" class="header__burger icon-menu"><span></span></button>
+			<div class="header__logo">
+				<a href="#"><img data-src="@img/icon/logo-header.svg" alt="logo-company"></a>
+				<span class="header__descr">Специализированный магазин аудио аксессуаров</span>
+			</div>
+			<div class="header__contacts">
+				<div class="header__phones dropdown">
+					<div class="dropdown__toggle">
+						<div class="dropdown__title">+38 (068) 685 22 55</div>
+						<div class="dropdown__icon">
+							<svg>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="dropdown__body">
+						<a href="tel:+380686852255" class="dropdown__link">+38 (068) 685 22 55</a>
+						<a href="tel:+380686852255" class="dropdown__link">+38 (068) 685 22 55</a>
+						<a href="tel:+380686852255" class="dropdown__link">+38 (068) 685 22 55</a>
+					</div>
+				</div>
+				<span class="header__text">Звоните проконсультируем</span>
+			</div>
+			<div class="header__time-work time-work">
+				<div class="time-work__title"></div>
+				<div data-tabs class="time-work__tabs tabs">
+					<nav data-tabs-titles class="tabs__navigation">
+						<button type="button" class="tabs__title _tab-active">Пн</button>
+						<button type="button" class="tabs__title">Вт</button>
+						<button type="button" class="tabs__title">Ср</button>
+						<button type="button" class="tabs__title _tab-active">Чт</button>
+						<button type="button" class="tabs__title">Пт</button>
+						<button type="button" class="tabs__title">Сб</button>
+						<button type="button" class="tabs__title">Вс</button>
+					</nav>
+					<div data-tabs-body class="tabs__content">
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">10:00-17:00</div>
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">10:00-17:00</div>
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">10:00-17:00</div>
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">10:00-17:00</div>
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">10:00-17:00</div>
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">10:00-17:00</div>
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">10:00-17:00</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__action action-header">
+				<div class="action-header__item action-header__item_search">
+					<div class="action-header__icon">
+						<svg>
+							<use xlink:href="@img/sprite.svg#search"></use>
+						</svg>
+					</div>
+				</div>
+				<div class="action-header__item action-header__item_scales">
+					<div class="action-header__icon">
+						<svg>
+							<use xlink:href="@img/sprite.svg#scales"></use>
+						</svg>
+					</div>
+				</div>
+				<div class="action-header__item action-header__item_heart">
+					<div class="action-header__icon">
+						<svg>
+							<use xlink:href="@img/sprite.svg#heart"></use>
+						</svg>
+					</div>
+				</div>
+				<div class="action-header__item action-header__item_shopping">
+					<div class="action-header__icon">
+						<svg>
+							<use xlink:href="@img/sprite.svg#shopping"></use>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__bottom">
+		<div class="header__container">
+			<div class="header__catalog catalog-header">
+				<div class="catalog-header__item">
+					<div class="catalog-header__toggle">
+						<div class="catalog-header__title">Беспроводные</div>
+						<div class="catalog-header__icon">
+							<svg>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							</svg>
+						</div>
+					</div>
+					<ul class="catalog-header__list">
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link catalog-header__show-more">
+							<span>Смотреть все</span>
+							<svg>
+								<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+							</svg>
+						</a>
+					</ul>
+				</div>
+				<div class="catalog-header__item">
+					<div class="catalog-header__toggle">
+						<div class="catalog-header__title">Вставные</div>
+						<div class="catalog-header__icon">
+							<svg>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							</svg>
+						</div>
+					</div>
+					<ul class="catalog-header__list">
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link catalog-header__show-more">
+							<span>Смотреть все</span>
+							<svg>
+								<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+							</svg>
+						</a>
+					</ul>
+				</div>
+				<div class="catalog-header__item">
+					<div class="catalog-header__toggle">
+						<div class="catalog-header__title">Накладные</div>
+						<div class="catalog-header__icon">
+							<svg>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							</svg>
+						</div>
+					</div>
+					<ul class="catalog-header__list">
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link">
+							<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+						</a>
+						<a href="#" class="catalog-header__link catalog-header__show-more">
+							<span>Смотреть все</span>
+							<svg>
+								<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+							</svg>
+						</a>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 </header>
