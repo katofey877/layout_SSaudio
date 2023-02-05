@@ -1,5 +1,275 @@
 //====================================================================================================
 
+.header {
+	// .header__top
+	&__top {
+		padding: rem(10) rem(0);
+		background-color: $braunColor;
+	}
+	// .header__container
+	&__container {
+		display: flex;
+		// .header__container_top
+		&_top {
+		}
+		// .header__container_middle
+		&_middle {
+		}
+		// .header__container_bottom
+		&_bottom {
+		}
+	}
+	// .header__menu
+	&__menu {
+		flex: 1 1 auto;
+	}
+	// .header__language
+	&__language {
+		@include adaptiveValue("margin-right", 50, 30);
+	}
+	// .header__regestration
+	&__regestration {
+	}
+	// .header__middle
+	&__middle {
+	}
+	// .header__burger
+	&__burger {
+	}
+	// .header__logo
+	&__logo {
+	}
+	// .header__descr
+	&__descr {
+	}
+	// .header__contacts
+	&__contacts {
+	}
+	// .header__phones
+	&__phones {
+	}
+	// .header__text
+	&__text {
+	}
+	// .header__time-work
+	&__time-work {
+	}
+	// .header__action
+	&__action {
+	}
+	// .header__bottom
+	&__bottom {
+	}
+	// .header__catalog
+	&__catalog {
+	}
+}
+.menu {
+	// .menu__body
+	&__body {
+	}
+	// .menu__list
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+	// .menu__item
+	&__item {
+		position: relative;
+		&:not(:last-child) {
+			@include adaptiveValue("margin-right", 50, 20);
+			&::after {
+				content: "";
+				position: absolute;
+				@include adaptiveValue("right", -25, -10);
+				top: 50%;
+				width: rem(1);
+				height: rem(15);
+				background-color: $grayColor;
+				transform: translateY(-50%);
+			}
+		}
+	}
+	// .menu__link
+	&__link {
+		font-size: rem(16);
+		line-height: math.div(21, 16);
+		color: $whiteColor;
+		transition: color 0.3s ease 0s;
+		@media (any-hover: hover) {
+			&:hover {
+				color: $orangeColor;
+			}
+		}
+	}
+}
+.dropdown {
+	color: $whiteColor;
+	position: relative;
+	cursor: pointer;
+	padding: 0 rem(5);
+
+	// .dropdown__toggle
+	&__toggle {
+		display: flex;
+		align-items: center;
+		column-gap: rem(5);
+		&._hover {
+			.dropdown__icon {
+				svg {
+					transform: rotate(-90deg);
+				}
+			}
+		}
+	}
+	// .dropdown__title
+	&__title {
+	}
+	// .dropdown__icon
+	&__icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		svg {
+			flex: 0 0 rem(14);
+			width: rem(14);
+			height: rem(14);
+			color: $whiteColor;
+			transition: all 0.3s ease 0s;
+			transform: rotate(90deg);
+		}
+	}
+	// .dropdown__body
+	&__body {
+		position: absolute;
+		z-index: 1;
+		top: 99.99%;
+		left: 0;
+		width: 100%;
+		padding: rem(5) rem(5);
+		background-color: $braunColor;
+		box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+		border-radius: 3px;
+	}
+	// .dropdown__link
+	&__link {
+		display: block;
+		text-align: center;
+		transition: color 0.3s ease 0s;
+		&:not(:last-child) {
+			margin-bottom: rem(5);
+		}
+		@media (any-hover: hover) {
+			&:hover {
+				color: $orangeColor;
+			}
+		}
+	}
+}
+
+.regestration {
+	// .regestration__link
+	&__link {
+		@extend %fz16w;
+		position: relative;
+		&:not(:last-child) {
+			@include adaptiveValue("margin-right", 20, 20);
+			&::after {
+				content: "";
+				position: absolute;
+				margin-right: rem(10);
+				top: 50%;
+				width: rem(1);
+				height: rem(15);
+				background-color: $grayColor;
+				transform: translateY(-50%);
+			}
+		}
+		// .regestration__link_sing-in
+		&_sing-in {
+		}
+		// .regestration__link_check-in
+		&_check-in {
+		}
+	}
+}
+
+.time-work {
+	// .time-work__title
+	&__title {
+	}
+	// .time-work__tabs
+	&__tabs {
+	}
+}
+.tabs {
+	// .tabs__navigation
+	&__navigation {
+	}
+	// .tabs__title
+	&__title {
+	}
+	// .tabs__content
+	&__content {
+	}
+	// .tabs__body
+	&__body {
+	}
+	// .tabs__row
+	&__row {
+	}
+	// .tabs__text
+	&__text {
+	}
+}
+
+.action-header {
+	// .action-header__item
+	&__item {
+		// .action-header__item_search
+		&_search {
+		}
+		// .action-header__item_scales
+		&_scales {
+		}
+		// .action-header__item_heart
+		&_heart {
+		}
+		// .action-header__item_shopping
+		&_shopping {
+		}
+	}
+	// .action-header__icon
+	&__icon {
+	}
+}
+.catalog-header {
+	// .catalog-header_wrapper
+	&_wrapper {
+	}
+	// .catalog-header__item
+	&__item {
+	}
+	// .catalog-header__toggle
+	&__toggle {
+	}
+	// .catalog-header__title
+	&__title {
+	}
+	// .catalog-header__icon
+	&__icon {
+	}
+	// .catalog-header__list
+	&__list {
+	}
+	// .catalog-header__link
+	&__link {
+	}
+	// .catalog-header__show-more
+	&__show-more {
+	}
+}
+
 //====================================================================================================
 
 //Burger

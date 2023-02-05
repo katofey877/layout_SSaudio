@@ -1,6 +1,6 @@
 <header class="header">
 	<div class="header__top">
-		<div class="header__container">
+		<div class="header__container header__container_top">
 			<div class="header__menu menu">
 				<nav class="menu__body">
 					<ul class="menu__list">
@@ -17,7 +17,7 @@
 					<div class="dropdown__title">Укр</div>
 					<div class="dropdown__icon">
 						<svg>
-							<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							<use xlink:href="@img/sprite.svg#arrow-down"></use>
 						</svg>
 					</div>
 				</div>
@@ -27,14 +27,14 @@
 					<a href="#" class="dropdown__link">Рус</a>
 				</div>
 			</div>
-			<div class="header__regestration">
-				<a href="#" class="header-link-sing-in">Вход</a>
-				<a href="#" class="header-link-check-in">Регистрация</a>
+			<div class="header__regestration regestration">
+				<a href="#" class="regestration__link regestration__link_sing-in">Вход</a>
+				<a href="#" class="regestration__link regestration__link_check-in">Регистрация</a>
 			</div>
 		</div>
 	</div>
 	<div class="header__middle">
-		<div class="header__container">
+		<div class="header__container header__container_middle">
 			<button type="button" class="header__burger icon-menu"><span></span></button>
 			<div class="header__logo">
 				<a href="#"><img data-src="@img/icon/logo-header.svg" alt="logo-company"></a>
@@ -149,7 +149,7 @@
 		</div>
 	</div>
 	<div class="header__bottom">
-		<div class="header__container">
+		<div class="header__container header__container_bottom">
 			<div class="header__catalog catalog-header">
 				<div class="catalog-header__item">
 					<div class="catalog-header__toggle">
@@ -160,35 +160,37 @@
 							</svg>
 						</div>
 					</div>
-					<ul class="catalog-header__list">
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product01.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product02.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product03.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product04.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product05.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product06.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product07.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link catalog-header__show-more">
-							<span>Смотреть все</span>
-							<svg>
-								<use xlink:href="img/sprite.svg#arrow-long-right"></use>
-							</svg>
-						</a>
-					</ul>
+					<div class="catalog-header_wrapper">
+						<ul class="catalog-header__list">
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link catalog-header__show-more">
+								<span>Смотреть все</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								</svg>
+							</a>
+						</ul>
+					</div>
 				</div>
 				<div class="catalog-header__item">
 					<div class="catalog-header__toggle">
@@ -199,35 +201,37 @@
 							</svg>
 						</div>
 					</div>
-					<ul class="catalog-header__list">
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product01.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product02.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product03.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product04.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product05.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product06.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product07.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link catalog-header__show-more">
-							<span>Смотреть все</span>
-							<svg>
-								<use xlink:href="img/sprite.svg#arrow-long-right"></use>
-							</svg>
-						</a>
-					</ul>
+					<div class="catalog-header_wrapper">
+						<ul class="catalog-header__list">
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link catalog-header__show-more">
+								<span>Смотреть все</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								</svg>
+							</a>
+						</ul>
+					</div>
 				</div>
 				<div class="catalog-header__item">
 					<div class="catalog-header__toggle">
@@ -238,35 +242,201 @@
 							</svg>
 						</div>
 					</div>
-					<ul class="catalog-header__list">
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product01.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product02.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product03.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product04.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product05.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product06.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link">
-							<img data-src="@img/icon/header-product07.svg" alt="logo-product">
-						</a>
-						<a href="#" class="catalog-header__link catalog-header__show-more">
-							<span>Смотреть все</span>
+					<div class="catalog-header_wrapper">
+						<ul class="catalog-header__list">
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link catalog-header__show-more">
+								<span>Смотреть все</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								</svg>
+							</a>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__item">
+					<div class="catalog-header__toggle">
+						<div class="catalog-header__title">Полноразмерные</div>
+						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
 							</svg>
-						</a>
-					</ul>
+						</div>
+					</div>
+					<div class="catalog-header_wrapper">
+						<ul class="catalog-header__list">
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link catalog-header__show-more">
+								<span>Смотреть все</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								</svg>
+							</a>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__item">
+					<div class="catalog-header__toggle">
+						<div class="catalog-header__title">High End</div>
+						<div class="catalog-header__icon">
+							<svg>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="catalog-header_wrapper">
+						<ul class="catalog-header__list">
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link catalog-header__show-more">
+								<span>Смотреть все</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								</svg>
+							</a>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__item">
+					<div class="catalog-header__toggle">
+						<div class="catalog-header__title">Для компьютера</div>
+						<div class="catalog-header__icon">
+							<svg>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="catalog-header_wrapper">
+						<ul class="catalog-header__list">
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link catalog-header__show-more">
+								<span>Смотреть все</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								</svg>
+							</a>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__item">
+					<div class="catalog-header__toggle">
+						<div class="catalog-header__title">PRO и DJ</div>
+						<div class="catalog-header__icon">
+							<svg>
+								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="catalog-header_wrapper">
+						<ul class="catalog-header__list">
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product02.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link catalog-header__show-more">
+								<span>Смотреть все</span>
+								<svg>
+									<use xlink:href="img/sprite.svg#arrow-long-right"></use>
+								</svg>
+							</a>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
