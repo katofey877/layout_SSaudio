@@ -46,7 +46,7 @@
 						<div class="dropdown__title">+38 (068) 685 22 55</div>
 						<div class="dropdown__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
 						</div>
 					</div>
@@ -59,13 +59,13 @@
 				<span class="header__text">Звоните проконсультируем</span>
 			</div>
 			<div class="header__time-work time-work">
-				<div class="time-work__title"></div>
+				<div class="time-work__title">График работы:</div>
 				<div data-tabs class="time-work__tabs tabs">
 					<nav data-tabs-titles class="tabs__navigation">
-						<button type="button" class="tabs__title _tab-active">Пн</button>
+						<button type="button" class="tabs__title">Пн</button>
 						<button type="button" class="tabs__title">Вт</button>
-						<button type="button" class="tabs__title">Ср</button>
-						<button type="button" class="tabs__title _tab-active">Чт</button>
+						<button type="button" class="tabs__title _tab-active">Ср</button>
+						<button type="button" class="tabs__title">Чт</button>
 						<button type="button" class="tabs__title">Пт</button>
 						<button type="button" class="tabs__title">Сб</button>
 						<button type="button" class="tabs__title">Вс</button>
@@ -73,8 +73,14 @@
 					<div data-tabs-body class="tabs__content">
 						<div class="tabs__body">
 							<div class="tabs__row">
-								<div class="tabs__text">09:00-19:00</div>
-								<div class="tabs__text">10:00-17:00</div>
+								<div class="tabs__text">07:00-19:00</div>
+								<div class="tabs__text">08:00-17:00</div>
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div class="tabs__row">
+								<div class="tabs__text">08:00-19:00</div>
+								<div class="tabs__text">11:00-17:00</div>
 							</div>
 						</div>
 						<div class="tabs__body">
@@ -85,32 +91,26 @@
 						</div>
 						<div class="tabs__body">
 							<div class="tabs__row">
-								<div class="tabs__text">09:00-19:00</div>
+								<div class="tabs__text">07:00-19:00</div>
 								<div class="tabs__text">10:00-17:00</div>
 							</div>
 						</div>
 						<div class="tabs__body">
 							<div class="tabs__row">
-								<div class="tabs__text">09:00-19:00</div>
-								<div class="tabs__text">10:00-17:00</div>
+								<div class="tabs__text">12:00-19:00</div>
+								<div class="tabs__text">12:00-17:00</div>
 							</div>
 						</div>
 						<div class="tabs__body">
 							<div class="tabs__row">
-								<div class="tabs__text">09:00-19:00</div>
-								<div class="tabs__text">10:00-17:00</div>
+								<div class="tabs__text">15:00-19:00</div>
+								<div class="tabs__text">15:00-17:00</div>
 							</div>
 						</div>
 						<div class="tabs__body">
 							<div class="tabs__row">
-								<div class="tabs__text">09:00-19:00</div>
-								<div class="tabs__text">10:00-17:00</div>
-							</div>
-						</div>
-						<div class="tabs__body">
-							<div class="tabs__row">
-								<div class="tabs__text">09:00-19:00</div>
-								<div class="tabs__text">10:00-17:00</div>
+								<div class="tabs__text">12:00-19:00</div>
+								<div class="tabs__text">13:00-17:00</div>
 							</div>
 						</div>
 					</div>
@@ -124,13 +124,13 @@
 						</svg>
 					</div>
 				</div>
-				<div class="action-header__item action-header__item_scales">
+				<a href="#" class="action-header__item action-header__item_scales">
 					<div class="action-header__icon">
 						<svg>
 							<use xlink:href="@img/sprite.svg#scales"></use>
 						</svg>
 					</div>
-				</div>
+				</a>
 				<div class="action-header__item action-header__item_heart">
 					<div class="action-header__icon">
 						<svg>
@@ -138,7 +138,8 @@
 						</svg>
 					</div>
 				</div>
-				<div class="action-header__item action-header__item_shopping">
+				<div class="action-header__item action-header__item_shopping _no-empty">
+					<span>3</span>
 					<div class="action-header__icon">
 						<svg>
 							<use xlink:href="@img/sprite.svg#shopping"></use>
@@ -156,11 +157,12 @@
 						<div class="catalog-header__title">Беспроводные</div>
 						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
+
 						</div>
 					</div>
-					<div class="catalog-header_wrapper">
+					<div  class="catalog-header__wrapper">
 						<ul class="catalog-header__list">
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
@@ -170,6 +172,18 @@
 							</a>
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product03.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product05.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product06.svg" alt="logo-product">
+							</a>
+							<a href="#" class="catalog-header__link">
+								<img data-src="@img/icon/header-product07.svg" alt="logo-product">
 							</a>
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product04.svg" alt="logo-product">
@@ -197,11 +211,11 @@
 						<div class="catalog-header__title">Вставные</div>
 						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
 						</div>
 					</div>
-					<div class="catalog-header_wrapper">
+					<div class="catalog-header__wrapper">
 						<ul class="catalog-header__list">
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
@@ -238,11 +252,11 @@
 						<div class="catalog-header__title">Накладные</div>
 						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
 						</div>
 					</div>
-					<div class="catalog-header_wrapper">
+					<div class="catalog-header__wrapper">
 						<ul class="catalog-header__list">
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
@@ -279,11 +293,11 @@
 						<div class="catalog-header__title">Полноразмерные</div>
 						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
 						</div>
 					</div>
-					<div class="catalog-header_wrapper">
+					<div class="catalog-header__wrapper">
 						<ul class="catalog-header__list">
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
@@ -320,11 +334,11 @@
 						<div class="catalog-header__title">High End</div>
 						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
 						</div>
 					</div>
-					<div class="catalog-header_wrapper">
+					<div class="catalog-header__wrapper">
 						<ul class="catalog-header__list">
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
@@ -361,11 +375,11 @@
 						<div class="catalog-header__title">Для компьютера</div>
 						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
 						</div>
 					</div>
-					<div class="catalog-header_wrapper">
+					<div class="catalog-header__wrapper">
 						<ul class="catalog-header__list">
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product01.svg" alt="logo-product">
@@ -402,11 +416,11 @@
 						<div class="catalog-header__title">PRO и DJ</div>
 						<div class="catalog-header__icon">
 							<svg>
-								<use xlink:href="@/img/sprite.svg#arrow-down"></use>
+								<use xlink:href="@img/sprite.svg#arrow-down"></use>
 							</svg>
 						</div>
 					</div>
-					<div class="catalog-header_wrapper">
+					<div class="catalog-header__wrapper">
 						<ul class="catalog-header__list">
 							<a href="#" class="catalog-header__link">
 								<img data-src="@img/icon/header-product01.svg" alt="logo-product">

@@ -1,10 +1,9 @@
 {
-	"editor.snippetSuggestions": "top",
-	"editor.suggest.showSnippets": true,
-	"editor.snippets.codeActions.enabled": false,
-	"emmet.showSuggestionsAsSnippets": false,
-	"editor.suggest.snippetsPreventQuickSuggestions": true,
-	"javascript.suggest.classMemberSnippets.enabled": true,
-	"typescript.suggest.classMemberSnippets.enabled": true,
-	"typescript.suggest.objectLiteralMethodSnippets.enabled": true
+	"emmet.preferences": {
+		"css.fuzzySearchMinScore": 3,
+		"css.fuzzySearch": true,
+		"caniuse.enabled": true,
+		"css.alignVendor": true,
+		"cssautoInsertVendorPrefixes": false
+	},
 }
